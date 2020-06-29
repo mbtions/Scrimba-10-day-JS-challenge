@@ -8,7 +8,7 @@ Write a function that returns the sum of alternating numbers and return them.
 
 */
 
-// Solution code
+// Solution code 2
 
 function alternatingSums(array) {
     let evenSum = 0;
@@ -24,7 +24,6 @@ function alternatingSums(array) {
     
     return [evenSum, oddSum];
 }
-
 
 
 /**
