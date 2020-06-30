@@ -14,5 +14,5 @@ Here, this challenge was completely worthy to learn as it introduced about the n
 Here, this challenge's logic was quite interesting and seems easy to write in javascript rather than other languages
 first, it was find the longest string among all and then it was added to longestWords and then returned.
 
-## Update day 3 : Replace the elemnt of the array with the other substitution element
+## Update day 3 : Replace the element of the array with the other substitution element
 Here, tis challenge was very easy to code, just the function arrayReplace took the arguments for the element to be replaced and the element that substitutes it, it was a quite easy and interesting program to code in javascript.
