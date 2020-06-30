@@ -8,8 +8,6 @@ function arrayReplace(array, elemToReplace, substitutionElem) {
     return array;
 }
 
-
-
 /**
 * Test Suite 
 */
