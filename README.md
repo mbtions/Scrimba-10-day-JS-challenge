@@ -14,5 +14,23 @@ Here, this challenge was completely worthy to learn as it introduced about the n
 Here, this challenge's logic was quite interesting and seems easy to write in javascript rather than other languages
 first, it was find the longest string among all and then it was added to longestWords and then returned.
 
-## Update day 3 : Replace the element of the array with the other substitution element
-Here, tis challenge was very easy to code, just the function arrayReplace took the arguments for the element to be replaced and the element that substitutes it, it was a quite easy and interesting program to code in javascript.
+## Update day 3 : Alternating sums in the array i.e, even-indexed element sums and odd-indexed elements sums
+Here, in this challenge the fact was to add alternating index elements and returning them as return [evenSums, oddSums]
+Quite easy to do challenge.
+
+## Update day 4 : Replace the element of the array with the other substitution element
+Here, this challenge was very easy to code, just the function arrayReplace took the arguments for the element to be replaced and the element that substitutes it, it was a quite easy and interesting program to code in javascript.
+
+## Update day 5 : Check if the string is a palindrome or not considering case insensitive
+Here, this challenge was very Interesting challenge to do, as there are many ways to do such program, here, I have learnt two ways how to solve this challenge in javascript by dylan Israel sir and both are great methods.
+     // first way to do the same problem
+    const reversedCaselessStr = caselessStr.split('').reverse().join(''); 
+    
+    Here, it means that the caselessStr is first splitted into each individual element of array and then the array is reversed and then again joined all the elements of the array into one single str, and then both strings can be checked wheter the caselessStr === reversedCaselessStr, so that it is a palindrome or not.
+    
+    //second way to do the same problem
+    let reversedCaselessStr = '';  
+    for(let i = caselessStr.length - 1; i >= 0; i--) {
+        reversedCaselessStr += caselessStr[i];
+    }
+    Using the standard for loop and accessing the each element of the string using i of for loop and storing them and concatenating into reversedCaselessStr and then the condition can be checked for whether caselessStr === reversedCaselessStr, so that it is a palindrome or not.
