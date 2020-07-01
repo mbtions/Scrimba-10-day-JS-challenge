@@ -23,7 +23,8 @@ Here, this challenge was very easy to code, just the function arrayReplace took 
 
 ## Update day 5 : Check if the string is a palindrome or not considering case insensitive
 Here, this challenge was very Interesting challenge to do, as there are many ways to do such program, here, I have learnt two ways how to solve this challenge in javascript by dylan Israel sir and both are great methods.
-     // first way to do the same problem
+    
+    // first way to do the same problem
     const reversedCaselessStr = caselessStr.split('').reverse().join(''); 
     
     Here, it means that the caselessStr is first splitted into each individual element of array and then the array is reversed and then again joined all the elements of the array into one single str, and then both strings can be checked wheter the caselessStr === reversedCaselessStr, so that it is a palindrome or not.
