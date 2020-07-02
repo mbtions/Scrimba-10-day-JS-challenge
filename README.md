@@ -35,3 +35,17 @@ Here, this challenge was very Interesting challenge to do, as there are many way
         reversedCaselessStr += caselessStr[i];
     }
     Using the standard for loop and accessing the each element of the string using i of for loop and storing them and concatenating into reversedCaselessStr and then the condition can be checked for whether caselessStr === reversedCaselessStr, so that it is a palindrome or not.
+
+## Update day 6 : enclosing string in small brackets
+Here, in this challenge, there are many ways to solve the challenge and tge logic is very easy to code.
+
+    /* First way to add brackets
+       const solution1 = "("+ str +")";  simple string concatenation used here.
+    */ 
+
+    /* Second way to add brackets
+       const solution2 = '($(str})';  this way of writing the strings with a variable is very prominent, using $(var) within string ' ' makes easy to assign variable values with desired constant string.
+    */
+   
+    // third way to add brackets
+    const solution3 = '('.const(str, ')'); // this is a very new way, first using 'str1'.const(str, 'str2'); here adding str1 witg constant string obtained after str+str2. Quite interesting method to use.
