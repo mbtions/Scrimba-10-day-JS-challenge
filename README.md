@@ -37,7 +37,7 @@ Here, this challenge was very Interesting challenge to do, as there are many way
     Using the standard for loop and accessing the each element of the string using i of for loop and storing them and concatenating into reversedCaselessStr and then the condition can be checked for whether caselessStr === reversedCaselessStr, so that it is a palindrome or not.
 
 ## Update day 6 : enclosing string in small brackets
-Here, in this challenge, there are many ways to solve the challenge and tge logic is very easy to code.
+Here, in this challenge, there are many ways to solve the challenge and the logic is very easy to code.
 
     /* First way to add brackets
        const solution1 = "("+ str +")";  simple string concatenation used here.
