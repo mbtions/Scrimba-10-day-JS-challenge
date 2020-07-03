@@ -49,3 +49,7 @@ Here, in this challenge, there are many ways to solve the challenge and the logi
    
     // third way to add brackets
     const solution3 = '('.const(str, ')'); // this is a very new way, first using 'str1'.const(str, 'str2'); here adding str1 witg constant string obtained after str+str2. Quite interesting method to use.
+
+## Update day 7 : calculating factorial of a number
+Here, in this challenge, number whose factorial is to be calculated is given in arguments of the function and after calculated factorial and it is then returned.
+It was a very easy challenge to do and great to code in javascript.
