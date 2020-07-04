@@ -53,3 +53,18 @@ Here, in this challenge, there are many ways to solve the challenge and the logi
 ## Update day 7 : calculating factorial of a number
 Here, in this challenge, number whose factorial is to be calculated is given in arguments of the function and after calculated factorial and it is then returned.
 It was a very easy challenge to do and great to code in javascript.
+
+## Update day 8 : return leftmost digit that occurs in given string
+Here, in this challenge, task is to find the digit in the leftmost of the given string, so to solve this problem, created a string strNums = ['0', '1', .......,'9']
+and then by const chars = str.split(''); we get an array of str individual elments,and using includes() function in for loop, we checked if strNums has any char of chars and
+returned it as return char;
+
+   Here is the logic: 
+   const strNums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    const chars = str.split('');
+    
+    for(const char of chars) {
+        if(strNums.includes(char)) {
+            return char;
+        }
+    }
