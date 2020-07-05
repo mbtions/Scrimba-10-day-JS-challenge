@@ -68,3 +68,18 @@ returned it as return char;
             return char;
         }
     }
+
+## Update day 9 : return the largest number for n digit number
+Here, in this challenge, input n of integer type is entered and it should return the n digit largest number i.e., 9999...upto n digits
+For example, if n = 2, then largest number (of 2 digit) = 99, here in the solution n = num is given as function parameter and we return largest number, there are many ways to this solution, few below :
+
+    // First way
+    let placeholder = ''; 
+    for(let i = 0; i < num; i++) {     // for loop upto num digits 
+        placeholder = placeholder.concat('9');      // concatenates 9 upto num times using this loop
+    }
+
+    // Second way 
+    const placeholder = '9'.repeat(num);   using repeat() function repeats 9 and concatenate upto num times
+
+    return parseInt(placeholder);  // placeholder gets returned after changed into int using parseInt()
