@@ -60,7 +60,8 @@ and then by const chars = str.split(''); we get an array of str individual elmen
 returned it as return char;
 
    Here is the logic: 
-   const strNums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    
+    const strNums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     const chars = str.split('');
     
     for(const char of chars) {
@@ -88,7 +89,8 @@ For example, if n = 2, then largest number (of 2 digit) = 99, here in the soluti
 Here, this challenge is the last of this series but not the least, it was a great challenge to solve it, this challenge says to return the maximum multiple number by the divisor 
 in the function two parameters are given bound and divisor, we ahve to return maximum multiple of divisor in the given bound, for eample if we take divisor = 3 and bound = 100
 then we must return the greatest multiple of 3 in the bound 0 to 100 and that is 99, 
-Below is the logic given to this problem :
+
+Below is the logic to this problem :
 
     const remainder = bound % divisor;  // remainder after dividing bound and divisor 
     
