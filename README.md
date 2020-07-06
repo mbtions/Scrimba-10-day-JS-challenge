@@ -83,3 +83,15 @@ For example, if n = 2, then largest number (of 2 digit) = 99, here in the soluti
     const placeholder = '9'.repeat(num);   using repeat() function repeats 9 and concatenate upto num times
 
     return parseInt(placeholder);  // placeholder gets returned after changed into int using parseInt()
+
+## Update day 10 : find the largest multiple N
+Here, this challenge is the last of this series but not the least, it was a great challenge to solve it, this challenge says to return the maximum multiple number by the divisor 
+in the function two parameters are given bound and divisor, we ahve to return maximum multiple of divisor in the given bound, for eample if we take divisor = 3 and bound = 100
+then we must return the greatest multiple of 3 in the bound 0 to 100 and that is 99, 
+Below is the logic given to this problem :
+
+    const remainder = bound % divisor;  // remainder after dividing bound and divisor 
+    
+    return bound - remainder;  // subtracting that remainder from the bound will give the value that is max multiple of divisor in given bound
+
+### it was all a great challenge series, In Questions.md, all question links are given, you can check them out, Thanks :)
